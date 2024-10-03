@@ -1,9 +1,14 @@
 import React from 'react';
-import './Header.css'; // Assure-toi que le fichier CSS est importé
+import Snowfall from 'react-snowfall'; // Importer la bibliothèque
+import './Header.css';
 
 export default function Header() {
     return (
         <header className="header">
+            <Snowfall
+                snowflakeCount={200} // Le nombre de flocons de neige
+                style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+            />
             <h1>Shotgun WEPN</h1>
             <img 
                 src="/logo512.png" 
