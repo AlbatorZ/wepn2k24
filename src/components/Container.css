@@ -1,0 +1,55 @@
+
+#tab {
+    margin-top: 5%;
+}
+
+#tab button {
+    background-color: rgb(255,2,107);
+    margin: 0px;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: medium;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border-top-right-radius: 0.8rem;
+    border-bottom-right-radius: 0%;
+
+}
+
+
+
+#tab img {
+    width: 400px;
+    height: 300;
+    border-radius: 10px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+
+#tab menu {
+    margin: 1rem 0;
+    margin-left: 11.7%;
+    margin-bottom: 0;
+    padding: 0;
+    display: flex;
+    gap: 0.2rem;
+}
+
+#tab p {
+    margin: 3rem;
+    margin-right: 5rem;
+    padding: 3rem;
+
+}
+
+.content {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(41, 152, 227,0.25);
+}
