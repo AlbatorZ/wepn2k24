@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer style={{ backgroundColor: '#f8f8f8', padding: '20px', textAlign: 'center' }}>
+        <footer style={{ backgroundColor: '#2998e350', padding: '20px', textAlign: 'center' }}>
             <h2>WEPN 2024</h2>
             <p>
                 Organisé par WACS (Winter Association Centrale Supélec)
