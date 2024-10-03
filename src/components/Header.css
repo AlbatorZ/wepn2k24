@@ -1,0 +1,14 @@
+.header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #2998e3;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+.header p {
+    font-size: 1.5rem;
+    color: #a6a6a6;
+    margin-top: 20px;
+    line-height: 1.6;
+}
