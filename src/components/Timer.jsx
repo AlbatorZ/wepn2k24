@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './Timer.css';
 
 export default function Timer() {
     const calculateTimeLeft = () => {
@@ -34,14 +35,17 @@ export default function Timer() {
             setTimeLeft(calculateTimeLeft());
         }, 1000);
 
-        return () => clearInterval(timer); // Cleanup the interval on component unmount
+        return () => clearInterval(timer);
     }, []);
 
     return (
-        <div style={{ textAlign: 'center', fontSize: '24px' }}>
-            <h2>Compte à rebours avant le shotgun</h2>
-            <div>
-                {timeLeft.days} jours {timeLeft.hours} heures {timeLeft.minutes} minutes {timeLeft.seconds} secondes
+        <div className="timer-container">
+            <h2>Shotgun dans</h2>
+            <div className="timer-numbers">
+                {timeLeft.days} <span className="timer-labels">Jours</span> {' '}
+                {timeLeft.hours} <span className="timer-labels">Heures</span> {' '}
+                {timeLeft.minutes} <span className="timer-labels">Minutes</span> {' '}
+                {timeLeft.seconds} <span className="timer-labels">Secondes</span>
             </div>
         </div>
     );

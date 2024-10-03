@@ -1,0 +1,22 @@
+/* Timer.css */
+
+.timer-container {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.timer-numbers {
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(255, 2, 107);
+}
+
+.timer-labels {
+    font-size: 24px;
+    color: #666;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
