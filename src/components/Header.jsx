@@ -7,7 +7,7 @@ export default function Header() {
         <header className="header">
             <Snowfall
                 snowflakeCount={200} // Le nombre de flocons de neige
-                style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+                style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%' }}
             />
             <h1>Shotgun WEPN</h1>
             <img 
