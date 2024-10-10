@@ -53,3 +53,9 @@
     justify-content: center;
     background-color: rgb(41, 152, 227,0.25);
 }
+
+#tab menu button.active {
+    color: rgb(255, 2, 107);
+    background-color: white;
+    border: 5px solid  rgba(41, 47, 227, 0.90);
+}
