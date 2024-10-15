@@ -12,7 +12,7 @@ export default function Container () {
                 
             </menu>
             <div className="content">
-                <div>
+                <div className="para">
                     <h3>
                         {tabElements[selectedButton].titre}
                     </h3>

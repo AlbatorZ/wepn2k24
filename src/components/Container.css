@@ -44,6 +44,7 @@
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 2%;
+    font-size: 1.2rem;
 
 }
 
@@ -57,6 +58,15 @@
     justify-content: center;
     background-color: rgb(41, 152, 227,0.25);
     padding-right: 5%;
+    padding-left: 5%;
+    
+}
+
+.para{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 #tab menu button.active {
@@ -67,4 +77,5 @@
 
 h3{
     color: rgb(255, 2, 107);
+    font-size: 1.3rem;
 }
