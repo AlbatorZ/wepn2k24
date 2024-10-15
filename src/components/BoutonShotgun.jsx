@@ -1,6 +1,6 @@
 export default function BoutonShotgun() {
     const handleClick = () => {
-        window.location.href = 'https://forms.viarezo.fr/paps/2xyso8'; // Remplacer par le lien du shotgun VR
+        window.location.href = 'https://forms.viarezo.fr/paps/yta42v'; // Remplacer par le lien du shotgun VR
     }
 
     return (
