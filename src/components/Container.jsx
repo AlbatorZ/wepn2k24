@@ -7,15 +7,19 @@ export default function Container () {
     return (<div id = 'tab'>
             <menu>
                 {tabElements.map((element,index) => ( <button  key = {index} onClick={() => setSelectedButton(index)} className = {selectedButton === index ? 'active' : undefined} > 
-                {element.titre} </button>))}
+                {element.bouton} </button>))}
                 
                 
             </menu>
             <div className="content">
-                <p>
-                    {tabElements[selectedButton].description}
-                    
-                </p>
+                <div>
+                    <h3>
+                        {tabElements[selectedButton].titre}
+                    </h3>
+                    <p>
+                        {tabElements[selectedButton].description}
+                    </p>
+                </div>
                 <img src = {tabElements[selectedButton].image} alt = {''} ></img>
             </div>
         </div>)

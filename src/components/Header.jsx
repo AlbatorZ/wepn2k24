@@ -15,7 +15,7 @@ export default function Header() {
                 alt="WACS" 
                 style={{ width: '300px', height: '300px', marginRight: '10px' }}
             />
-            <p>Le WEPN (Week-end Premières Neiges) aura lieu du 30 novembre au 1er décembre 2024 wouhouw</p>
+            <p>Le WEPN, c'est un week-end de pure glisse <strong>le 30 novembre et 1 décembre</strong> où on va fêter l’ouverture d’une station pour la saison, c’est l’occasion rêvée de profiter de ses potes et de retrouver les meilleures sensations du monde !</p>
         </header>
     );
 }

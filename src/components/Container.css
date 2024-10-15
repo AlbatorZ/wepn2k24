@@ -19,11 +19,12 @@
 
 
 #tab img {
-    width: 400px;
-    height: 300;
-    border-radius: 10px;
+    width: 35%;
+    height: 30%;
+    border-radius: 3%;
     margin-top: 4rem;
     margin-bottom: 4rem;
+    border: 0.2rem solid rgb(0,10,121);
 }
 
 
@@ -37,9 +38,12 @@
 }
 
 #tab p {
-    margin: 3rem;
-    margin-right: 5rem;
-    padding: 3rem;
+    margin-top:1% ;
+    margin-right: 10%;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
 
 }
 
@@ -57,5 +61,9 @@
 #tab menu button.active {
     color: rgb(255, 2, 107);
     background-color: white;
-    border: 5px solid  rgba(41, 47, 227, 0.90);
+    border: 3px solid  rgba(41, 47, 227, 0.90);
+}
+
+h3{
+    color: rgb(255, 2, 107);
 }
