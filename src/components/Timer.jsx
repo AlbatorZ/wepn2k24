@@ -3,7 +3,7 @@ import './Timer.css';
 
 export default function Timer() {
     const calculateTimeLeft = () => {
-        const targetDate = new Date('2024-10-18T13:00:00'); // date et heure du shotgun 18/10/2024 à 13h
+        const targetDate = new Date('2024-10-17T13:00:00'); // date et heure du shotgun 18/10/2024 à 13h
         const now = new Date();
         const difference = targetDate - now;
 
@@ -40,7 +40,7 @@ export default function Timer() {
 
     return (
         <div className="timer-container">
-            <h2>Shotgun dans</h2>
+            <h2>Shotgun boursier dans</h2>
             <div className="timer-numbers">
                 {timeLeft.days} <span className="timer-labels">Jours</span> {' '}
                 {timeLeft.hours} <span className="timer-labels">Heures</span> {' '}
