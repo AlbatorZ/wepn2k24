@@ -40,7 +40,7 @@ export default function Timer() {
 
     return (
         <div className="timer-container">
-            <h2>Shotgun boursier dans</h2>
+            <h2>Shotgun dans</h2>
             <div className="timer-numbers">
                 {timeLeft.days} <span className="timer-labels">Jours</span> {' '}
                 {timeLeft.hours} <span className="timer-labels">Heures</span> {' '}
